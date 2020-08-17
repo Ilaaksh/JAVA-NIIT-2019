@@ -1,0 +1,38 @@
+class A
+{
+int a=12;
+int b=2;
+int sum=0;
+int sub=0;
+int mul=0;
+int div=0;
+void input()
+{
+sum=a+b;
+System.out.println(sum);
+}
+void display()
+{
+sub=a-b;
+System.out.println(sub);
+}
+void show()
+{
+mul=a*b;
+System.out.println(mul);
+}
+void hi()
+{
+div=a/b;
+System.out.println(div);
+}
+
+public static void main(String[]args)
+{
+A X=new A();
+X.input();
+X.display();
+X.show();
+X.hi();
+}
+}
